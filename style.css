@@ -1,0 +1,165 @@
+#image{
+    height: 280px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+body{
+    background:gray;
+    font-size: 20px;
+    line-height: 22px;
+    color:white;
+}
+
+.bold{
+    font-size: 20px;
+}
+
+.semi-bold{
+    font-size: 16px;
+}
+
+.resume{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 30px auto;
+}
+
+.resume .resume-left{
+    width: 280px;
+    background: #87CEEB		;
+
+}
+
+.resume .resume-left .resume-content{
+    padding: 0 20px;
+}
+
+.resume.title{
+    margin-bottom: 20px;
+
+}
+
+.resume .resume-left .bold{
+    color: purple;
+
+}
+
+.resume .resume-left .regular{
+    color:black;
+}
+
+.resume .resume-item{
+    padding: 25px 0;
+    border-bottom: 5px solid #FF00FF	;
+}
+
+.resume .resume-left .resume-item:last-child{
+    border-bottom: 0px;
+}
+
+.resume .resume-left div.icon{
+     width: 35px;
+     height: 35px;
+     background: black;
+     color:white;
+     border-radius: 60%;
+     margin-right: 20px;
+     font-size: 16px;
+     position: relative;
+    }
+
+
+.resume .resume-left div.data{
+   color:white;
+}
+
+.resume .resume-left .resume-skills div{
+       color:white;
+       justify-content: space-between;
+}
+
+#image2{
+    height: 250px;
+    width: 250px;
+    margin-left: 100px;
+
+
+}
+#image3{
+    height: 250px;
+    width: 250px;
+    margin-left:100px;
+}
+
+.resume-right{
+    width: 540px;
+    background:whitesmoke;
+    padding: 30px;
+    color: black;
+}
+
+ .resume-right .resume-education  div,
+ .resume-right  .resume-project  div{
+    padding-left: 40px;
+}
+
+/*----------Experience-------------*/
+
+.work{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background:whitesmoke;
+    color:#8B0000;
+}
+
+.work h3{
+    margin-bottom: 50px;
+}
+
+.timeline{
+    list-style-type: none;
+    position: relative;
+}
+
+.timeline:before{
+    content:'' ;
+    background:black;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+}
+
+.timeline li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: white;
+}
+
+.timeline li h5{
+    background-color:#87CEEB;
+    padding: 5px 0 5px 20px;
+    color:black;
+    font-size: 15px;
+}
+
+.timeline li h5 span{
+ font-weight: bold;
+ color: goldenrod;
+}
+
+.timeline li:before{
+    content:'' ;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid black;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    
+}       
